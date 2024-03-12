@@ -1,0 +1,188 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: "Noto Serif", serif;
+}
+
+/* Menú superior*/
+header{
+    display: flex;
+    background-color: #283232;
+    padding: 15px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+}
+
+header a i{
+    text-decoration: none;
+    color: #EDEEEE;
+    font-size: 30px;
+    padding-left: 1rem;
+}
+
+nav ul{
+    display: flex;
+    gap: 1.5em; /*Espacio entre elementos*/
+}
+
+nav li a{
+    color: #EDEEEE;
+}
+
+
+ol, ul{
+    list-style: none;
+}
+
+
+/*Cuerpo pg*/
+#seccion-principal{
+    text-align: center;
+    background-color: white;
+}
+
+section{
+    padding: 3rem 0;
+    background-color: #EDEEEE;
+}
+
+/*Primera parte*/
+
+h2{
+    color: rgb(0, 102, 255);
+}
+
+.seccion-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+div h2{
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0rem 2rem 0rem 20rem;
+    text-align: right;
+}
+
+.parrafo1, .parrafo2{
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0rem 2rem 0rem 10rem;
+    text-align: right;
+}
+
+p{
+    padding: 0.4rem;
+}
+
+.mundo{
+    padding: 2rem 2rem 2rem 1rem;
+    width: 60%;
+}
+
+@media (max-width: 1172px){
+    .seccion-1{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div h2{
+        text-align: center;
+        justify-content: center;
+        padding: 1rem;
+    }
+
+    .parrafo1, .parrafo2{
+        text-align: justify;
+        justify-content: center;
+    }
+
+    .mundo{
+        align-items: center;
+        padding: 1rem;
+    }
+}
+
+/*Segunda Parte*/
+.imgg{
+    width: 100%;
+    height: 40rem;
+}
+
+.seccion-2{
+    padding-bottom: 0.2rem;
+}
+
+/*Tercera Parte*/
+
+.sec-inter{
+    padding: 1rem 0rem 0rem 1rem;
+    text-align: start;
+}
+
+.seccion-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ofic{
+    border-radius: 1rem;
+}
+
+.part{
+    padding: 3rem;
+    flex-wrap: wrap;
+}
+
+h4{
+    color: #9F924E;
+    text-align: start;
+    padding: 1rem 0rem;
+}
+
+.text{
+    text-align: justify;
+}
+
+@media (max-width: 768px){
+    .seccion-3{
+        flex-wrap: wrap;
+    }
+}
+
+/*Footer*/
+footer{
+    padding: 15px;
+    background-color: #0E1313;
+    margin: 0;
+}
+
+footer ul li a{
+    color: #EDEEEE;
+    padding-left: 1rem;
+}
+
+h3{
+    color: #9F924E;
+    padding: 0rem 0rem 1rem 1rem;
+}
+
+@media (max-width: 768px){
+    footer{
+        text-align: center;
+    }
+
+
+}
